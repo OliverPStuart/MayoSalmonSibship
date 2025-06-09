@@ -1,0 +1,23 @@
+# First, ignore everything
+*
+
+# Now, whitelist anything that's a directory
+!*/
+
+# For analysis folders, specify what kinds of files we're keeping
+!*.R
+!*.sh
+!*.pl
+!README.md
+!.snakemake
+!*.pbs
+!*.Rmd
+!*.slim
+!*.html
+!*.slurm
+!.gitignore
+!*.yaml
+!*.py
+
+# And finally ignore all binary files
+*._*
