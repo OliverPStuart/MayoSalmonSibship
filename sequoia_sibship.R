@@ -6,7 +6,6 @@
 
 # Packages
 library(sequoia)
-library(ggplot2)
 library(dplyr)
 library(magrittr)
 
